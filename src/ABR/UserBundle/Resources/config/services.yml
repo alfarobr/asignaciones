@@ -1,0 +1,4 @@
+services:
+#    abr_user.example:
+#        class: ABR\UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

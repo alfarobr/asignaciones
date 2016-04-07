@@ -1,0 +1,7 @@
+abr_user:
+    resource: "@ABRUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

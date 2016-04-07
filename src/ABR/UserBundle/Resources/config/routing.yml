@@ -1,0 +1,28 @@
+abr_user_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ABRUserBundle:Default:index }
+
+abr_user_index:
+    path: /user/index
+    defaults: { _controller: ABRUserBundle:User:index }
+
+abr_user_add:
+    path: /user/add
+    defaults: { _controller: ABRUserBundle:User:add }
+
+abr_user_create:
+    path: /user/create
+    defaults: { _controller: ABRUserBundle:User:create }
+    methods: POST
+    
+abr_user_edit:
+    path: /user/edit/{id}
+    defaults: { _controller: ABRUserBundle:User:edit }
+
+abr_user_view:
+    path: /user/view/{id}
+    defaults: { _controller: ABRUserBundle:User:view }
+    
+abr_user_delete:
+    path: /user/delete/{id}
+    defaults: { _controller: ABRUserBundle:User:delete }
